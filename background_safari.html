@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <!-- Safari用バックグラウンド (イベントページ)。
+         Safariにはchrome.offscreen APIがない代わりにバックグラウンド頁でDOMが使えるため、
+         Chrome版の offscreen.html の役割をこの頁が兼ねる (Firefox版と同じ構成)。 -->
+    <iframe id="sandbox" src="sandbox.html"></iframe>
+    <script src="background_safari.js"></script>
+</body>
+
+</html>
